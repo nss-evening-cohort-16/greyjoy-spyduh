@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {}
+    "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {
+    "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+        "projectUniqueName": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
         "projectName": "Greyjoy-SpyDuh",
-        "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\obj\\",
+        "projectPath": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+        "packagesPath": "C:\\Users\\rgs16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rgs16\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
