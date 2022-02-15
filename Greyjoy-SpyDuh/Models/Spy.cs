@@ -10,15 +10,13 @@
 
         public enum SkillType
         {
-        Sabatoge,
-        Sneaking, 
-        LockPicking,
-        Disguise,
-        Assassination,
-        Deception,
-        Seduction,
-
-
+        Sabatoge = 1,
+        Sneaking = 2, 
+        LockPicking = 3,
+        Disguise = 4,
+        Assassination = 5,
+        Deception = 6,
+        Seduction = 7,
         }
 
     }
