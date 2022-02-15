@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "HI3QXsU0OxzZXpMaouvXTMNjtsae0iQuanLDGsWG5CZSoLp0oU5MwrmxwSDrz+4HsOV3TG9WRy63XlR3MJwqug==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Daniel\\workspace\\serverside\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
