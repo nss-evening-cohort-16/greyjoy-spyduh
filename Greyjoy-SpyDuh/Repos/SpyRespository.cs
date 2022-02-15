@@ -5,7 +5,7 @@ namespace Greyjoy_SpyDuh.Repos
 {
     public class SpyRespository
     {
-        private static List<Spy> _spys = new List<Spy>()
+        public static List<Spy> spys = new List<Spy>()
         {
             new Spy()
             {
@@ -65,5 +65,10 @@ namespace Greyjoy_SpyDuh.Repos
                 Enemies = new List<Spy> {},
             },
         };
+
+        internal List<Spy> GetAll()
+        {
+            return spys;
+        }
     }
 }

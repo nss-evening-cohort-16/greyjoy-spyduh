@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {}
+    "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {
+    "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
         "projectName": "Greyjoy-SpyDuh",
-        "projectPath": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
-        "packagesPath": "C:\\Users\\rgs16\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rgs16\\workspace\\foundations\\backend\\projects\\SpyDuh\\Greyjoy-SpyDuh\\obj\\",
+        "projectPath": "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rgs16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
