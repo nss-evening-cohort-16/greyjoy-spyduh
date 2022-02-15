@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HI3QXsU0OxzZXpMaouvXTMNjtsae0iQuanLDGsWG5CZSoLp0oU5MwrmxwSDrz+4HsOV3TG9WRy63XlR3MJwqug==",
+  "dgSpecHash": "3pI4RaGXX/GAHjLFr6kIwlQ9x9lrF2YLd4Bm84wCbW1V0a9xOFa27RnCcoxnlh/Sv2fbEr6cy6oi8iVzDbtYhA==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Daniel\\workspace\\serverside\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
