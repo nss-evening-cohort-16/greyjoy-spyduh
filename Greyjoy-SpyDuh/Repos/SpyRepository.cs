@@ -82,5 +82,11 @@ namespace Greyjoy_SpyDuh.Repos
         {
             spys.Add(newSpy);
         }
+        internal object GetSkills(SkillType skill)
+        {
+            var matchingSkills = spys.Where(x => x.Skills.Contains(skill));
+            return matchingSkills;
+        }
+        
     }
 }
