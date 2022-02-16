@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "PixaEijEx8fpBZT0gY8TUyakpTdAYoP73y+B/cJXzr2R1JorDwTAmZUATyQK2/YCCug129AXV1WBgMCuiFxR2w==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\josep\\Source\\Repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\josep\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "b2mq/TwaXgxdd8yVc9yTcLPt9eOJ8K0z9h62lFhppl+4YgS/e7ESFjEDTu8B5v0BF9AY8jwOGbgphHHHxKZu+g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Daniel\\workspace\\serverside\\SpyDuh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

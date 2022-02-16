@@ -2,8 +2,8 @@
 {
     public class Spy
     {
-        public List<Spy> Enemies { get; set; }
-        public List<Spy> Friends { get; set; }
+        public List<int> Enemies { get; set; }
+        public List<int> Friends { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }    
         public List<SkillType> Skills { get; set; }
