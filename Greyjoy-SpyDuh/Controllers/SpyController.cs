@@ -84,7 +84,57 @@ namespace Greyjoy_SpyDuh.Controllers
             return true;
 
         }
+
+        [HttpPost("{id}/friends")]
+        public IActionResult AddFriend(int id, FriendsAndEnemies friend)
+        {
+            if (_spyRepository.GetById(friend.FriendOrEnemyId) == null)
+            {
+                return BadRequest("Friend to add does not exist.");
+            }
+            if (_spyRepository.GetById(id) == null)
+            {
+                return BadRequest("Friend cannot be added as Spy does not exist.");
+            }
+            if(((Spy)_spyRepository.GetById(id)).Friends.Contains(friend.FriendOrEnemyId))
+            {
+                return BadRequest("Friend already added");
+            }
+            else
+            {
+               ((Spy)_spyRepository.GetById(id)).AddFriend(friend.FriendOrEnemyId);
+                string spyName = ((Spy)_spyRepository.GetById(id)).Name;
+                string friendName = ((Spy)_spyRepository.GetById(friend.FriendOrEnemyId)).Name;
+                return Ok($"Added (ID:{friend.FriendOrEnemyId}){friendName} to (ID:{id}){spyName}'s list of enemies.");
+            }
+        }
+
+        [HttpPost("{id}/enemies")]
+        public IActionResult AddEnemy(int id, FriendsAndEnemies enemy)
+        {
+            if (_spyRepository.GetById(enemy.FriendOrEnemyId) == null)
+            {
+                return BadRequest("Enemy to add does not exist.");
+            }
+            if (_spyRepository.GetById(id) == null)
+            {
+                return BadRequest("Enemy cannot be added as Spy does not exist.");
+            }
+            if (((Spy)_spyRepository.GetById(id)).Enemies.Contains(enemy.FriendOrEnemyId))
+            {
+                return BadRequest("Enemy already added");
+            }
+            else
+            {
+               ((Spy)_spyRepository.GetById(id)).AddEnemy(enemy.FriendOrEnemyId);
+                string spyName = ((Spy)_spyRepository.GetById(id)).Name;
+                string enemyName = ((Spy)_spyRepository.GetById(enemy.FriendOrEnemyId)).Name;
+                return Ok($"Added (ID:{enemy.FriendOrEnemyId}){enemyName} to (ID:{id}){spyName}'s list of enemies.");
+            }
+        }
+
     }
+
 
 
 }
