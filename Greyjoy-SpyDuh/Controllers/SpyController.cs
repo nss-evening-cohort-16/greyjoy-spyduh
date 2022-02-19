@@ -84,6 +84,17 @@ namespace Greyjoy_SpyDuh.Controllers
             return true;
 
         }
+        [HttpGet("skill/{skill}")]
+        public IActionResult GetSpyBySkill(SkillType skill)
+        {
+            var matches = _spyRepository.GetSkills(skill);
+            if (matches == null)
+            {
+                return NotFound();
+            }
+            return Ok(matches);
+
+        }
     }
 
 
