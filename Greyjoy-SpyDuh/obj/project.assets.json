@@ -208,24 +208,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\austinparker\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\workspace\\serverside\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+      "projectUniqueName": "C:\\Users\\austinparker\\source\\repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
       "projectName": "Greyjoy-SpyDuh",
-      "projectPath": "C:\\Users\\Daniel\\workspace\\serverside\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\workspace\\serverside\\greyjoy-spyduh\\Greyjoy-SpyDuh\\obj\\",
+      "projectPath": "C:\\Users\\austinparker\\source\\repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\Greyjoy-SpyDuh.csproj",
+      "packagesPath": "C:\\Users\\austinparker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\austinparker\\source\\repos\\greyjoy-spyduh\\Greyjoy-SpyDuh\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\austinparker\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -274,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\x64\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

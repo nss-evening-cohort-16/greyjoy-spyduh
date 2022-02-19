@@ -95,6 +95,17 @@ namespace Greyjoy_SpyDuh.Controllers
             return Ok(matches);
 
         }
+
+        [HttpGet("{id}/skills")]
+        public IActionResult GetSkillsOfSpy(int id)
+        {
+            if (_spyRepository.GetById(id) == null)
+            {
+                return BadRequest("Spy not found");
+            }
+            List<SkillType> spySkills = _spyRepository.GetSkillsBySpy(id);
+            return Ok(spySkills);
+        }
     
 
         [HttpPost("{id}/friends")]

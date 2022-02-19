@@ -87,6 +87,12 @@ namespace Greyjoy_SpyDuh.Repos
             var matchingSkills = spys.Where(x => x.Skills.Contains(skill));
             return matchingSkills;
         }
+
+        internal List<SkillType> GetSkillsBySpy(int id)
+        {
+            var matchingSpy = spys.FirstOrDefault(r => r.Id == id);
+            return matchingSpy.Skills;
+        }
         
     }
 }
