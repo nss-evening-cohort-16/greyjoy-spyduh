@@ -20,5 +20,15 @@
                 Seduction = 7,
             }
 
+        public void AddFriend(int id)
+        {
+            Friends.Add(id);
+        }
+        
+        public void AddEnemy(int id)
+        {
+            Enemies.Add(id);
+        }
+
         }
     }
