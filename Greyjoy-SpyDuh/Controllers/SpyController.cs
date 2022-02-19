@@ -95,7 +95,7 @@ namespace Greyjoy_SpyDuh.Controllers
             return Ok(matches);
 
         }
-    }
+    
 
         [HttpPost("{id}/friends")]
         public IActionResult AddFriend(int id, FriendsAndEnemies friend)
